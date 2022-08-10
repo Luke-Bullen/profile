@@ -1,52 +1,60 @@
 body {
-  background-color: rgb(240,240,240);
+  /* background-color: rgb(240,240,240); */
+  background-image: url("images/2-space-background.jpg");
+  background-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(23, 19, 19);
+  color: rgb(255, 255, 255);
   font-size: 18px;
   line-height: 20px;
 }
 
 h1 {
   font-family: 'EB Garamond', serif;
+  font-size: 50px;
 }
 
 h2 {
-  color: red;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.fa-terminal {
+  font-size: 20px;
+  padding-right: 1%;
 }
 
 a:hover {
-  color: blue;
+  color: rgba(46,103,248);
 }
 
 a {
   text-decoration: none;
-  color: rgb(23, 19, 19);
+  color: whitesmoke;
 }
 
 i {
   font-size: 40px;
 }
 
-i:hover {
-  color: rgb(71, 245, 71);
-}
-
 .fa-face-smile-wink {
-  font-size: 20px;
-}
-
-button {
-  background-color: bisque;
-}
-
-button:hover {
-  color: rgb(4, 0, 255);
+  font-size: 18px;
+  padding-left: 10px;
 }
 
 img {
+  padding-top: 2.5%;
   max-width: 20%;
-  max-height: 20%;
-  border-radius: 10%;
+  height: 20%;
+  border-radius: 15%;
+}
+
+.coding-image {
+  text-align: center;
+  background-image: url("images/coding-image.jpg") ;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .container {
@@ -57,17 +65,43 @@ img {
 
 .socials {
   border-top: 3px dashed;
+  padding-top: 5%;
 }
 
 .top {
   text-align: center;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   border-radius: 5%;
+  padding: 0.5%;
+  /* background-color: linear-gradient(
+    rgba(185, 185, 185, 0.7),
+    rgba(255, 255, 255, 0.7)
+  ); */
+  /* background: rgba( 0,0,0,0.4 ); */
+  /* background-color: rgba(255, 255, 255, 0.365); */
+  backdrop-filter: blur(50px);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5)
+}
+
+button {
+  background-color: rgb(234, 242, 225);
+}
+
+button:hover {
+  color: rgba(46,103,248);
 }
 
 .button {
   box-shadow: 2px 3px grey;
+  width: 60%;
+  padding: 3%;
+  font-size: 20px;
 }
+
+.button-outer {
+  text-align: center;
+}
+
 
 .list-inline > li {
   display: inline-block;
@@ -82,6 +116,19 @@ img {
 .socials-tagline {
   text-align: center;
   padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.fa-brands:hover {
+  color: rgb(47,249,36);
+}
+
+.A51 {
+  text-align: center;
 }
 
 @media (max-width: 960px) {
